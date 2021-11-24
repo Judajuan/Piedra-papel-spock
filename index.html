@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prueba priedra,papel,spock</title>
+
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/icon_title.png">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+	<body>
+		<section class="score">
+			<div class="score-container-border">
+				<img src="images/images-recursos/logo-bonus.svg">
+				<div class="score-container-border__points">
+					<p>Puntaje</p>
+					<p id="points"></p>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-game">
+			<article class="container-game__options">
+				
+				<div class="container-game__figure">
+					<img src="images/images-recursos/bg-pentagon.svg">	
+				</div>
+				<!-- Options -->
+				<button onclick="jugar(0);" id="container-game__figure--paper"><img src="images/images-recursos/icon-rock.svg"></button>
+				<button onclick="jugar(1);" id="container-game__figure--rock"><img src="images/images-recursos/icon-paper.svg"></button>
+				<button onclick="jugar(2);" id="container-game__figure--scissors"><img src="images/images-recursos/icon-scissors.svg"></button>
+				<button onclick="jugar(3);" id="container-game__figure--lizard"><img src="images/images-recursos/icon-lizard.svg"></button>
+				<button onclick="jugar(4);" id="container-game__figure--spock"><img src="images/images-recursos/icon-spock.svg"></button>
+			</article>
+			<article class="container-game__results">
+				<div id="human">
+					<p>Humano selecciona:</p>
+				</div>
+				<div id="text_result">
+
+					<button>Volver Jugar</button>
+				</div>
+				<div id="Cpu">
+					<p>Maquina selecciona:</p>
+				</div>
+			</article>
+		</section>
+
+		<section class="rules">
+			<button class="rules-modal-open">Reglas</button>
+			<div class="rules-modal">
+				<div class="rules-modal-container">
+					<b>Reglas</b>
+					<button class="rules-modal-close">
+						<img src="images/images-recursos/icon-close.svg">
+					</button>
+					<img src="images/images-recursos/image-rules-bonus.svg">
+				</div>
+			</div>
+		</section>
+
+		<!-- Inicia importacion de scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+		<script src="js/functions.js" type="text/javascript"></script>
+	</body>
+</html>

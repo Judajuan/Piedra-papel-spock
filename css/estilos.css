@@ -1,0 +1,174 @@
+body{
+	background: radial-gradient(circle , #1e3253 ,#172041 50%);
+	font-family: cursive;
+   height: 50em;
+}
+
+
+.score{
+	padding: 3em;
+}
+.score-container-border{
+	max-width: 40%;
+    margin: 0 auto;
+    border: 2px solid #ffffffa1;
+    border-radius: 1em;
+    padding: 2em 4em;
+    position: relative;
+}
+.score-container-border img{
+	display: inline-block;
+}
+.score-container-border__points{
+	display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    font-family: cursive;
+    right: 3em;
+    padding: 1em 2em;
+    border-radius: 1em;
+    color: #0037ffc7;
+}
+.score-container-border__points p{
+	margin: 0;
+}
+#points{
+    font-size: 3em;
+    margin: 0;
+}
+.rules-button{
+
+}
+.rules-modal{
+	position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #39475e7d;
+    width: 100%;
+    text-align: center;
+    height: 120%;
+    display: none;
+}
+.rules-modal-container{
+	background-color: #e4e6e9;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 2em 0;
+    position: relative;
+    top: 9em;
+}
+.rules-modal-container b{
+	position: absolute;
+    font-size: 2em;
+    top: 3%;
+    left: 10%;
+    color: #b3b6c6;
+}
+.rules-modal-close{
+	position: absolute;
+    right: 5%;
+    border: none;
+    top: 4%;
+}
+.rules-modal-close:hover{
+	cursor: pointer;
+	border: 1px solid #28324f;
+    border-radius: 0.5em;
+    top: 3%;
+}
+.rules-modal-open{
+	background: transparent;
+    border: 1px solid #fff;
+    padding: 1em 3em;
+    color: #fff;
+    border-radius: 1em;
+    position: absolute;
+    bottom: 8%;
+    right: 6%;
+}
+.rules-modal-open:hover{
+	background-color: #fff;
+	color: #0037ffc7;
+	cursor: pointer;
+	border-color: #0037ffc7;
+
+}
+.container-game__options{
+	position: relative;
+}
+.container-game__figure{
+	width: 100%;
+    text-align: center;
+}
+.container-game__options button{
+	border-radius: 50%;
+    padding: 1em 1.4em 1em 1em;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+#container-game__figure--paper{
+	left: 61%;
+    top: 24%;
+    border: 1em solid red;
+}
+.container-game__options button:hover{
+	cursor: pointer;
+    border-width: 1.5em !important;
+    transition: 1s !important;
+}
+#container-game__figure--rock{
+	left: 31%;
+    top: 27%;
+    border: 1em solid #16dd53;
+}
+#container-game__figure--scissors{
+	left: 45%;
+    top: -12%;
+    border: 1em solid #16b8dd;
+}
+#container-game__figure--lizard{
+	left: 54%;
+    top: 79%;
+    border: 1em solid #6316dd;
+}
+#container-game__figure--spock{
+	left: 34%;
+    top: 79%;
+    border: 1em solid #d6d913;
+}
+
+.container-game__results div{
+	    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+.container-game__results p{
+	color: #fff;
+    font-size: 2em;
+}
+#human button{
+	border-radius: 50%;
+    padding: 1em 1.4em 1em 1em;
+}
+#Cpu button{
+	border-radius: 50%;
+    padding: 1em 1.4em 1em 1em;
+}
+#text_result > button{
+	background-color: #fff;
+    border: none;
+    color: #172041c7;
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: fantasy;
+    border-radius: 1em;
+}
+#text_result > button:hover{
+	background-color: #172041c7;
+    color: #fff;
+    cursor: pointer;
+}
